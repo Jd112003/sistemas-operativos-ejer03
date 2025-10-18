@@ -125,6 +125,8 @@ python3 pc_threads.py   # Ctrl+C para terminar
 cd ../procesos
 python3 pc_processes.py # Ctrl+C para terminar
 
+```
+
 ### 7) Uso de LLMs (documentación mínima)
 
 - Se consultó un LLM para:
