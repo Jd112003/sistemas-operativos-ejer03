@@ -30,7 +30,7 @@ Se resolvió el problema clásico **Productor–Consumidor con buffer acotado N*
   - **Python:** `multiprocessing.Queue` ya implementa bloqueo y canal IPC.
 
 **Simplicidad de implementación (de más simple a más compleja en esta tarea)**
-- **Python procesos** (cola lista) ≈ **Java procesos** (sockets) ≈ **Java hilos**
+- **Python procesos** (cola lista) ~ **Java procesos** (sockets) ~ **Java hilos**
 - **C hilos**
 - **C procesos** (por manejo de `shm_*`, `sem_open` y limpieza)
 
@@ -107,10 +107,10 @@ A continuación se presentan capturas de pantalla de la ejecución de cada imple
 #### Análisis de las capturas
 
 Lo que se aprecia visualmente en todas las capturas es que:
-1. ✅ Hay ejecución continua con mensajes de producción y consumo intercalados.
-2. ✅ No se observan errores, excepciones ni bloqueos en las salidas mostradas.
-3. ✅ La alternancia produce/consume evidencia la coordinación básica correcta.
-4. ✅ El objetivo de las capturas es demostrar funcionamiento real en consola; los detalles internos (semáforos/colas/sockets) están en el código y la documentación.
+1. Hay ejecución continua con mensajes de producción y consumo intercalados.
+2. No se observan errores, excepciones ni bloqueos en las salidas mostradas.
+3. La alternancia produce/consume evidencia la coordinación básica correcta.
+4. El objetivo de las capturas es demostrar funcionamiento real en consola; los detalles internos (semáforos/colas/sockets) están en el código y la documentación.
 
 ---
 
