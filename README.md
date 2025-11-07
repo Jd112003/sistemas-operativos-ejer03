@@ -200,3 +200,5 @@ python3 pc_processes.py # Ctrl+C para terminar
 
 - **Criterios finales de diseño:** Los **nombres POSIX**, la **estructura de sockets** y el **formato de impresión** fueron ajustados por el equipo para claridad, robustez y facilidad de rerun.
 
+- **Enlace a la conversación (historial LLM):** https://chatgpt.com/g/g-p-68e93448e19081918b82ecf0165915a5-james/shared/c/68ebf193-d704-832c-92c2-f812feced7d1?owner_user_id=user-g7JsUaFTsow7u6klxEvGNMOr
+
